@@ -1,13 +1,14 @@
 package com.bs.exercice.loggingservice;
 
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import static org.springframework.boot.SpringApplication.run;
 
 @SpringBootApplication
 public class LoggingServiceApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(LoggingServiceApplication.class, args);
-	}
+    public static void main(String[] args) {
+        run(LoggingServiceApplication.class, args);
+    }
 
 }
